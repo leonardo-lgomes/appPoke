@@ -28,7 +28,6 @@ export default class Main extends Component {
         Axios.get("https://pokeapi.co/api/v2/pokemon/").then(res => {
           const pokemon = res.data.results;
           this.setState({ pokemon });
- {/*         console.log(pokemon); */}
         });       
       }
 
@@ -121,18 +120,3 @@ const styles = StyleSheet.create ({
     },
 
 });
-
-
-
-{/*
-    lista = () => {
-        this.state.pokemon.map( infos => {
-           return(
-                <View>
-                    <Text>{infos}</Text>
-                </View>
-           );
-        });
-    }
-
-*/}

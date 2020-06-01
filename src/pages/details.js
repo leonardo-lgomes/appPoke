@@ -173,7 +173,6 @@ const styles = StyleSheet.create ({
         fontWeight:"bold",
         paddingLeft:10,
         textAlign:"center",
-
     },
 
     Text: {
@@ -181,9 +180,7 @@ const styles = StyleSheet.create ({
         color:"#fff",
         paddingLeft:10,
         textAlign:"center",
-        borderBottomColor:"#ccc",
         marginBottom:5,
-
     },
 
 
